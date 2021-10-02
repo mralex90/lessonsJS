@@ -1,14 +1,8 @@
-// var num;
-// num = 5;
+var num_1 = 5.4;
+var num_2 = 15;
 
-const num = 5;
-// num = 7;
-console.log("Переменная: " + num + ".");
 
-var number;
-number = false;
+var num_3 = 5;
+num_3++;
 
-number = "stroka";
-
-var num_1 = 5;
-var num_2 = "5";
+console.log("Result: " + num_3);
