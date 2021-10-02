@@ -1,1 +1,5 @@
-document.write("Javascript say Hello!")
+// document.write("Javascript say Hello!")
+// console.log('Javascript say Hello!!!')
+// console.info('Javascript say Hello!!!')
+// console.error('Javascript say Hello!!!')
+console.warn('Javascript say Hello!!!')
