@@ -1,14 +1,16 @@
-var number = 15;
-var isHasHouse = true;
+var stroka = "word12";
 
-if(number == 15 && !isHasHouse) {
-    console.log("OK");
-} else if(number < 10) {
-    console.log("OK!!");
-} else if(number == 7) {
-    console.log("7!");
-} else if(number > 15) {
-    console.log("> 15!");
-} else {
-    console.log("Else!");
+switch(stroka) {
+    case "4": 
+        console.log("Переменная со значением 4");
+        break;
+    case "45": 
+        console.log("Переменная со значением 45");
+        break;
+    case "word": 
+        console.log("Переменная со значением WORD");
+        break;
+    default:
+        console.log("Default");
+        break;
 }
