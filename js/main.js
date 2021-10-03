@@ -1,8 +1,8 @@
-var num_1 = 5.4;
-var num_2 = 15;
+var number = 15;
 
-
-var num_3 = 5;
-num_3++;
-
-console.log("Result: " + num_3);
+if(number != 15) {
+    console.log("OK");
+    console.log("OK!!");
+} else {
+    console.log("Else!");
+}
