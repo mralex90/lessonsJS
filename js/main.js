@@ -1,16 +1,3 @@
-var stroka = "word12";
-
-switch(stroka) {
-    case "4": 
-        console.log("Переменная со значением 4");
-        break;
-    case "45": 
-        console.log("Переменная со значением 45");
-        break;
-    case "word": 
-        console.log("Переменная со значением WORD");
-        break;
-    default:
-        console.log("Default");
-        break;
-}
+var arr = [5, true, "stroka", 5.7, 0, -100];
+arr[3] = "word";
+console.log(arr[3]);
