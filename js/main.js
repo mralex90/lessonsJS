@@ -1,6 +1,10 @@
-function info() {
-    console.log("Привет");
-    console.log("!");
+function info(word) {
+    console.log(word + "!");
 }
 
-info();
+function summa(a, b) {
+    var res = a + b;
+    info(res);
+}
+
+summa(5, 7);
