@@ -1,3 +1,6 @@
+var counter = 0;
+
 function onClickButton() {
-    alert('Вы нажали на меня');
+    counter++;
+    console.log(counter);
 }
