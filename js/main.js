@@ -6,5 +6,7 @@ function onClickButton(el) {
 }
 
 function onInput(el) {
+    if(el.value == "Hello!")
+        alert("И тебе привет!")
     console.log(el.value);
 }
