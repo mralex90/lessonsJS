@@ -9,7 +9,10 @@ text.innerHTML = "New<br>string";
 
 // document.getElementById('text').style.color = "white";
 
-var spans = document.getElementsByTagName('span');
+// var spans = document.getElementsByTagName('span');
+
+
+var spans = document.getElementsByClassName('span');
 
 for(var i = 0; i < spans.length; i++) {
     console.log(spans[i].innerHTML);
