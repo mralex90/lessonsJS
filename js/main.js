@@ -16,12 +16,13 @@ function checkForm(el) {
     else if(pass.split("&").length > 1)
         fail = "Некорректный пароль";
 
-    if(fail != "") {
+    if(fail != "") 
         document.getElementById('error').innerHTML = fail;
 
-        return false;
-    } else {
+    else {
         alert("Все данные корректно заполнены");
-        return true;
+        window.location = 'https://youtube.com';
+        
     }
+    return false;
 }
