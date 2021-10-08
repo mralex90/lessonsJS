@@ -16,5 +16,12 @@ function checkForm(el) {
     else if(pass.split("&").length > 1)
         fail = "Некорректный пароль";
 
-    return false;
+    if(fail != "") {
+        document.getElementById('error').innerHTML = fail;
+
+        return false;
+    } else {
+        alert("Все данные корректно заполнены");
+        return true;
+    }
 }
