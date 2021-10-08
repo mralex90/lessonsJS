@@ -5,7 +5,16 @@ function checkForm(el) {
     var repass = el.repass.value;
     var state = el.state.value;
 
-    console.log(state + " - " + pass + " - " + repass);
+    var fail = "";
+
+    if(name == "" || pass == "" || state == "")
+        fail = "Заполните все поля";
+    else if(name.length <= 1 || name.length > 50)
+        fail = "Введите корректное имя";
+    else if(pass != repass)
+        fail = "Пароли должны совпадать";
+    else if(pass.split("&").length > 1)
+        fail = "Некорректный пароль";
 
     return false;
 }
