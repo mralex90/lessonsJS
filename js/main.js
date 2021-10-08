@@ -1,6 +1,7 @@
 function checkForm(el) {
 
-    console.log("Text");
+    var name = document.getElementById('name').value;
+    console.log(name);
 
     return false;
 }
