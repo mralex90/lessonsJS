@@ -1,6 +1,6 @@
 function checkForm(el) {
 
-    var name = document.getElementById('name').value;
+    var name = el.name.value;
     console.log(name);
 
     return false;
