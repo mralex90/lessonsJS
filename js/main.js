@@ -1,14 +1,17 @@
 var counter = 0;
-// setInterval(my_func, 1000);
 
-// var counter = 0;
-// function my_func() {
-//     counter++;
-//     console.log("Counter: " + counter);
-// }
+var id = setInterval(my_func, 1000);
 
-setInterval(function() {
-    
+function my_func() {
     counter++;
-    console.log("Прошло секунд: " + counter);
-}, 1000);
+    console.log("Counter: " + counter);
+
+    if(counter == 5)
+        clearInterval(id);
+}
+
+// setInterval(function() {
+    
+//     counter++;
+//     console.log("Прошло секунд: " + counter);
+// }, 1000);
