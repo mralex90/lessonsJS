@@ -1,14 +1,9 @@
-var date = new Date();
+var arr = [8, 90, 5, 7, 0, 8, 9];
+// console.log(arr.length);
+// console.log(arr.join(", "));
+// console.log(arr.sort());
+// console.log(arr.reverse());
 
-// console.log(date.getFullYear());
-// console.log(date.getMonth() + 1);
-// console.log(date.getDate());
-// console.log(date.getHours());
-// console.log(date.getMinutes());
-// console.log(date.getSeconds());
+var stroka = arr.reverse().join(", "); 
 
-date.setHours(23);
-date.setMinutes(23);
-
-
-console.log("Время: " + date.getHours() + ":" + date.getMinutes());
+console.log(stroka.split(", "));
